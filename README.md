@@ -1,6 +1,6 @@
 # SDP/SSP  unit kotlin extension
 
-
+![](https://jitpack.io/v/Mathias-Boulay/sdp-ssp-kotlin-extension.svg)
 
 This library brings the universal scaling units from those 2 libraries: [sdp unit lib](https://github.com/intuit/sdp)/[ssp unit lib](https://github.com/intuit/ssp) as kotlin extension functions to use a bit like you would with Jetpack Compose.
 
@@ -26,7 +26,7 @@ allprojects {
 
 In your app `build.gradle` file, add the following lines:
 ```css
-implementation 'com.github.Mathias-Boulay:android_gamepad_remapper:master-SNAPSHOT' // The kotlin extension
+implementation 'com.github.Mathias-Boulay:sdp-ssp-kotlin-extension:1.0.0' // The kotlin extension
 
 // The original librairies 
 implementation 'com.intuit.sdp:sdp-android:1.1.0'  
