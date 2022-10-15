@@ -14,6 +14,16 @@ For a live example, compile the demo app by cloning the repo.
 
 # Quick start
 ## Step 1 - Install
+If not done so already, you need to add the Jitpack repository to the root `build.gradle` file:
+```css
+allprojects {
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
+	}
+}
+```
+
 In your app `build.gradle` file, add the following lines:
 ```css
 implementation 'com.github.Mathias-Boulay:android_gamepad_remapper:master-SNAPSHOT' // The kotlin extension
