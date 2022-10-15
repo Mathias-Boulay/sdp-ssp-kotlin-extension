@@ -9,6 +9,10 @@ This library brings the universal scaling units from those 2 libraries: [sdp uni
 
 `myTextView.layoutParams.width = 60.sdp` is equals to `android:layout_width="@dimen/_60sdp"`
 
+**Important note:** While `Number.sdp` returns a size in **pixels**, `Number.sdp` returns the size as **sp** units.  This is because the `textSize` property of `TextView` expects **sp** units.
+
+If you want the **ssp** size as **pixels**, simply do `Number.ssp.sp` !
+
 For a live example, you compile the demo app by cloning the repo. Or take my word for it and look at the screenshot below:
 
 <img src="https://i.ibb.co/YTxvLvG/library-preview.png" alt="library-preview" border="0"/>
