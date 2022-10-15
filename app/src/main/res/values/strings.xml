@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">sdp-ssp-Kotlin-demo</string>
+    <string name="from_xml_dimensions">From xml: 60sdp, 16ssp</string>
+    <string name="from_code_dimensions">From code: 60sdp, 16ssp</string>
+</resources>
