@@ -9,7 +9,9 @@ This library brings the universal scaling units from those 2 libraries: [sdp uni
 
 `myTextView.layoutParams.width = 60.sdp` is equals to `android:layout_width="@dimen/_60sdp"`
 
-For a live example, compile the demo app by cloning the repo.
+For a live example, you compile the demo app by cloning the repo. Or take my word for it and look at the screenshot below:
+
+<img src="https://i.ibb.co/YTxvLvG/library-preview.png" alt="library-preview" border="0"/>
 
 
 # Quick start
